@@ -1,18 +1,24 @@
-# IntelliJ
+### IDE ve Sistem Dosyaları ###
 .idea/
-*.iml
-
-# VS Code
 .vscode/
+*.iml
+*.iws
+*.ipr
+*.class
+.DS_Store
+Thumbs.db
+/target/
+/dist/
+/build/
 
-# Spring Boot
-/task-tracer-backend/target/
-/task-tracer-backend/src/main/resources/application.properties
-/task-tracer-backend/src/main/resources/application.yml
+### Backend (Spring Boot) ###
+# Maven'in oluşturduğu dosyalar
+/task-tracker-backend/target/
 
-# React
-/task-tracer-frontend/node_modules/
-/task-tracer-frontend/build/
+# Hassas yapılandırma dosyaları
+/task-tracker-backend/src/main/resources/application.properties
 
-# Docker
-.dockerignore
+### Frontend (React) ###
+# Node.js bağımlılıkları ve build klasörü
+/task-tracker-frontend/node_modules/
+/task-tracker-frontend/build/
