@@ -1,0 +1,18 @@
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Spring Boot
+/task-tracer-backend/target/
+/task-tracer-backend/src/main/resources/application.properties
+/task-tracer-backend/src/main/resources/application.yml
+
+# React
+/task-tracer-frontend/node_modules/
+/task-tracer-frontend/build/
+
+# Docker
+.dockerignore
